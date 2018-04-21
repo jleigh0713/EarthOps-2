@@ -1,0 +1,179 @@
+button.submit {
+    float: right;
+  }
+  
+  form#cms {
+    margin-top: 50px;
+  }
+  
+  #cms textarea {
+    resize: none;
+  }
+  
+  .panel-heading button.delete,
+  button.edit {
+    float: right;
+    margin: 5px;
+  }
+  
+  .top-30 {
+    margin-top: 30px;
+  }
+  
+  .navbar {
+    background-color: #343a40;
+  }
+  
+  #titlebar {
+    color: #fff;
+  }
+  
+  #login-p {
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 48px;
+    color: #343a40;
+  }
+  
+  img {
+    margin-top: 20px;
+    margin-bottom: 70px;
+  }
+  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+  }
+  
+  #modal {
+    position: absolute;
+    background: url(tint20.png) 0 0 repeat;
+    background-color: #b3d8ea;
+    border-radius: 14px;
+    padding: 8px;
+  }
+  
+  #contactbtn {
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  #dash-body {
+    background-image: url("../images/Homemadesoap.jpeg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  
+  #dash-main {
+    margin-top: 50px;
+    width: 700px;
+    background-color: #dddc;
+    height: 415px;
+  }
+  
+  #dash-btn {
+    background-color: #fff;
+    color: #28a745;
+    font-weight: bold;
+  }
+  
+  #dashboardLink {
+    margin-right: 10px;
+  }
+  
+  #dash-main-p {
+    font-weight: bold;
+    font-size: 48px;
+  }
+  
+  #listing-dash-ref {
+    color: #fff;
+  }
+  
+  #listing-container {
+    margin-top: 50px;
+  }
+  
+  #listing-body {
+    background-color: rgb(207, 205, 205);
+  }
+  
+  #listing-label {
+    font-weight: bold;
+  }
+  
+  #listing-p {
+    font-weight: bold;
+  }
+  
+  #editBtn {
+    margin-top: 120px;
+  }
+  
+  #deleteBtn {
+    margin-top: 120px;
+    margin-right: 20px;
+  }
+  
+  #listingCategory {
+    font-size: 18px;
+    margin-top: 30px;
+    font-weight: 400;
+    text-align: center;
+  }
+  
+  #listingPanel {
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+  
+  #sign-up-content {
+    margin-bottom: 70px;
+  }
+  
+  #profileSubmit {
+    margin-left: 965px;
+  }
+  
+  #listingsBody {
+    background-color: #5fcc5d85;
+  }
+  
+  #profileBody {
+    background-color: #5fcc5d85;
+  }
+  
+  #signupBody {
+    background-color: #5fcc5d85;
+  }
+  
+  #appInfo {
+    margin-left: 62px;
+    margin-top: 20px;
+    height: 475px;
+  }
+  
+  #loginBody {
+
+    background-color: #5fcc5d85;
+  }
+  
+  #loginImg {
+    width: 625px;
+    height: 475px;
+  }
+  
+  #category {
+    margin-left: 50px;
+    width: 200px;
+  }
+  
+  #listingsSubmit {
+    margin-left: 150px;
+  }

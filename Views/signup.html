@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Earth Ops</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
+
+</head>
+
+<nav class="navbar navbar-expand-lg sticky-top navbar-light">
+  <a class="navbar-brand" id="titlebar">Earth Ops</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+    aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+</nav>
+
+<body id="signupBody">
+  <div class="container" id="sign-up-content">
+    <div class="jumbotron">
+      <h1>Create Account</h1>
+      <br>
+
+      <form action="/signup" method="post">
+        <div class="form-group">
+          <input type="text" name="name" class="form-control" id="name" placeholder="Your name">
+          <br>
+          <input type="text" name="email" class="form-control" id="eMail" placeholder="Email">
+          <br>
+          <input type="password" name="password" class="form-control" id="password" placeholder="Password" style="display: block;">
+          <br>
+          <input type="text" name="city" class="form-control" id="city" placeholder="City">
+          <br>
+          <input type="text" name="state" class="form-control" id="state" placeholder="State">
+          <br>
+          <input type="text" name="zipcode" class="form-control" id="zip" placeholder="Zip Code">
+          <br>
+          <textarea type="text" name="about" class="form-control" id="about" placeholder="Tell us about yourself"></textarea>
+          <br>
+          <textarea type="text" name="skills" class="form-control" id="skills" placeholder="Type your job skills"></textarea>
+          <br>
+          <button type="submit" id="submit" class="btn btn-outline-success active">Submit</button>
+          <!-- button above will add info to database and bring you to edit profile page -->
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <button class="btn" id="contactbtn" onclick="bootbox.alert('Jessica Leigh: jessicaleigh0713@gmail.com')">Contact Earth Ops</button>
+    </div>
+
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Earth Ops</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" type="text/css" href="css\styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
+</head>
+
+<nav class="navbar navbar-expand-lg sticky-top navbar-light">
+  <a class="navbar-brand" id="titlebar">Earth Ops
+
+  </a>
+
+  <ul class="navbar-nav mr-auto nav justify-content-end">
+  </ul>
+  <ul class="nav  justify-content-end">
+    <form class="form-inline" action="/login" method="post">
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1"></span>
+        </div>
+        <input type="text" class="form-control rounded" name="email" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1">
+      </div>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text  mr-sm-2" id="basic-addon1"></span>
+        </div>
+        <input type="password" class="form-control mr-sm-2 rounded" name="password" placeholder="Password" aria-label="Password"
+          aria-describedby="basic-addon1">
+      </div>
+      <input class="btn btn-outline-success active mr-sm-2" type="submit" value="Log In" />
+    </form>
+  </ul>
+  <ul class="nav justify-content-end">
+    <li class="nav-item">
+      <a href="/signup" class="btn btn-outline-success active" role="button" aria-pressed="true">Join</a>
+    </li>
+  </ul>
+</nav>
+
+<body id="loginBody">
+
+  <div class="container-fluid" id="splash-main">
+    <div class="row">
+      <div class="col-lg-6 jumbotron" id="appInfo">
+        <p id="login-p">Welcome to Earth Ops</p>
+        <br>
+        <p id="splash-p">Create an account, find products, or post your own.</p>
+        <br>
+        <p id="splash-p">Join our Community to share your products made from the good stuff our Earth provides us. Buy, sell, share, give, or barter!</p>
+      </div>
+      <div class="col-lg-5">
+        <img src="images/welcomepage.jpeg" id="loginImg" alt="Garden">
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <!-- <span class="text-muted">Place sticky footer content here.</span> -->
+      <button class="btn" id="contactbtn" onclick="bootbox.alert('Jessica Leigh: jessicaleigh0713@gmail.com')">Contact Earth Ops</button>
+    </div>
+  </footer>
+</body>
+
+</html>
